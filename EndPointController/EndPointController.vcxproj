@@ -89,10 +89,16 @@
     <None Include="LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Functions.h" />
     <ClInclude Include="PolicyConfig.h" />
+    <ClInclude Include="SoundDevice.h" />
+    <ClInclude Include="SoundDeviceController.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EndPointController.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="SoundDevice.cpp" />
+    <ClCompile Include="SoundDeviceController.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
