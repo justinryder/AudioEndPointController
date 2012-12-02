@@ -50,18 +50,6 @@ bool SoundDevice::isDefaultPlaybackDevice()
 HRESULT SoundDevice::setAsDefaultPlaybackDevice()
 {
 	return pSoundDeviceController->setDefaultSoundDevice(this);
-
-	IPolicyConfigVista *pPolicyConfig;
-	ERole reserved = eConsole;
-
-    HRESULT hr = CoCreateInstance(__uuidof(CPolicyConfigVistaClient), 
-		NULL, CLSCTX_ALL, __uuidof(IPolicyConfigVista), (LPVOID *)&pPolicyConfig);
-	if (SUCCEEDED(hr))
-	{
-		hr = pPolicyConfig->SetDefaultEndpoint(id, reserved);
-		pPolicyConfig->Release();
-	}
-	return hr;
 }
 
 std::wstring SoundDevice::getDeviceProperty(IPropertyStore* pStore, const PROPERTYKEY key)
