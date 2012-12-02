@@ -71,7 +71,7 @@ int _tmain(int argc, LPCWSTR argv[])
 			pSoundDeviceController->createActiveDevices();
 			if (pSoundDeviceController->getDeviceCount() > deviceIndex && deviceIndex > -1)
 			{
-				cout << "\n\nINITIAL DEFAULT DEVICE:\n\n";
+				cout << "\nINITIAL DEFAULT DEVICE:\n\n";
 				pSoundDeviceController->printDevice(pSoundDeviceController->getDefaultDevice());
 				cout << "\nCHANGING DEFAULT DEVICE TO:\n\n";
 				pSoundDeviceController->printDevice(deviceIndex);
