@@ -26,7 +26,7 @@ A Windows command-line program for listing audio end-points and setting the defa
 	                                       with given number.
 	EXAMPLES
 	  EndPointController.exe /disabled
-	                                       Displays the disabled devices
+	                                       Displays the disabled devices.
 	  EndPointController.exe 2
 	                                       Sets the default device to active
 	                                       device # 2.
