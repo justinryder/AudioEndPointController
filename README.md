@@ -7,11 +7,11 @@ A Windows command-line program for listing audio end-points and setting the defa
 	Lists active audio playback devices or sets default audio playback device.
 	
 	USAGE
-	  EndPointController.exe" << endl;
+	  EndPointController.exe
 	                                       Displays devices that are active.
-	  EndPointController.exe [OPTIONS]" << endl;
+	  EndPointController.exe [OPTIONS]
 	                                       Displays devices that are active.
-	  EndPointController.exe [#]" << endl;
+	  EndPointController.exe [#]
 	                                       Sets the default device.
 	                                       (uses active device numbering)
 	OPTIONS
