@@ -2,4 +2,6 @@ Debug
 EndPointController/Debug
 EndPointController/Release
 ipch
+*.suo
+*.opensdf
 *.sdf

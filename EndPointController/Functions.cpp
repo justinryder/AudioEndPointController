@@ -25,31 +25,31 @@ string wstring_to_string(const wstring& src)
 
 void printHelp()
 {
-	cout << "Lists active audio playback devices or sets default audio playback device." << endl;
-	cout << endl;
-	cout << "USAGE" << endl;
-	cout << "  EndPointController.exe" << endl;
-	cout << "                                       Displays devices that are active." << endl;
-	cout << "  EndPointController.exe [OPTIONS]" << endl;
-	cout << "                                       Displays devices that are active." << endl;
-	cout << "  EndPointController.exe [#]" << endl;
-	cout << "                                       Sets the default device." << endl;
-	cout << "                                       (uses active device numbering)" << endl;
-	cout << "OPTIONS" << endl;
-	cout << "  [NONE]                               Display devices that are active." << endl;
-	cout << "  -all, /all, -a, /a                   Display all devices." << endl;
-	cout << "  -active, /active                     Display devices that are active." << endl;
-	cout << "  -disabled, /disabled, -d, /d         Display devices that are diabled." << endl;
-	cout << "  -notpresent, /notpresent, -n, /n     Display devices that are not present." << endl;
-	cout << "  -unplugged, /unplugged, -u, /u       Display devices that are unplugged." << endl;
-	cout << "  -help, --help, /help, -?, /?         Display this message." << endl;
-	cout << "  [#]                                  Set default device to active device" << endl;
-	cout << "                                       with given number." << endl;
-	cout << "EXAMPLES" << endl;
-	cout << "  EndPointController.exe /disabled" << endl;
-	cout << "                                       Displays the disabled devices" << endl;
-	cout << "  EndPointController.exe 2" << endl;
-	cout << "                                       Sets the default device to active" << endl;
-	cout << "                                       device # 2." << endl;
-
+	cout <<
+"Lists active audio playback devices or sets default audio playback device.\n\
+\n\
+USAGE\n\
+  EndPointController.exe\n\
+                                       Displays devices that are active.\n\
+  EndPointController.exe [OPTIONS]\n\
+                                       Displays devices that are active.\n\
+  EndPointController.exe [#]\n\
+                                       Sets the default device.\n\
+                                       (uses active device numbering)\n\
+OPTIONS\n\
+  [NONE]                               Display devices that are active.\n\
+  -all, /all, -a, /a                   Display all devices.\n\
+  -active, /active                     Display devices that are active.\n\
+  -disabled, /disabled, -d, /d         Display devices that are diabled.\n\
+  -notpresent, /notpresent, -n, /n     Display devices that are not present.\n\
+  -unplugged, /unplugged, -u, /u       Display devices that are unplugged.\n\
+  -help, --help, /help, -?, /?         Display this message.\n\
+  [#]                                  Set default device to active device\n\
+                                       with given number.\n\
+EXAMPLES\n\
+  EndPointController.exe /disabled\n\
+                                       Displays the disabled devices\n\
+  EndPointController.exe 2\n\
+                                       Sets the default device to active\n\
+                                       device # 2.\n";
 }
